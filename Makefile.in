@@ -1,2 +1,5 @@
 all install:
-	cd eap_example&&$(MAKE) CC='gcc -fPIC'
+	cd eap_example && $(MAKE) CC='gcc -fPIC'
+
+clean:
+	cd eap_example && $(MAKE) clean
